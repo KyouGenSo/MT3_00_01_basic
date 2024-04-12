@@ -1,7 +1,7 @@
 #include <Novice.h>
 #include <Vector3Function.h>
 
-const char kWindowTitle[] = "LC1A_11_キョウ_ゲンソ";
+const char kWindowTitle[] = "LE2A_10_キョウ_ゲンソ";
 
 void Vector3ScreenPrint(int x, int y, Vector3 v, const char* moji) {
 	Novice::ScreenPrintf(x, y, "%.1f, %.1f, %.1f %s", v.x, v.y, v.z, moji);
